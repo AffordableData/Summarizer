@@ -1,6 +1,6 @@
 # Affordable Data Summarizer
 
-This demo app was made to support a post on my Affordable Data Substack. Check out the post for background.
+This demo app was made to support a post on my [Affordable Data Substack](https://affordabledata.substack.com/p/affordable-data-summarizer). Check out the post for background.
 
 There are a lot of example apps for summarizing text, and some of them use Streamlit like this one. But I didn't find any others that allowed the user to compare summaries from multiple AI providers.
 
@@ -9,8 +9,7 @@ There are a lot of example apps for summarizing text, and some of them use Strea
 ## Installation
 1. Create an [OpenAI API Key](https://platform.openai.com/account/api-keys)
 
-2. Create an Azure OpenAI resource and get the API Key: 
-[How-to - Create a resource and deploy a model using Azure OpenAI Service](https://learn.microsoft.com/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal)
+2. Create an Azure OpenAI resource and get the API Key by following [How-to - Create a resource and deploy a model using Azure OpenAI Service](https://learn.microsoft.com/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal)
 
 3. Clone the project repo:
 
