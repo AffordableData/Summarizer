@@ -207,17 +207,15 @@ if uploaded_file is not None:
                     time.sleep(1.3)
                     
                 end_time = datetime.now()
-                summary_openai_time = (end_time - start_time).total_seconds()
+                summary_azure_time = (end_time - start_time).total_seconds()
 
                 st.session_state['summary_azure'] = summary_azure
-                st.session_state['summary_azure_time'] = summary_openai_time
+                st.session_state['summary_azure_time'] = summary_azure_time
 
-        st.markdown(f":blue[Seconds:] {summary_openai_time}")
+        st.markdown(f":blue[Seconds:] {summary_azure_time}")
         st.subheader(f"Summary")
 
         if st.button(f"Copy to Clipboard",key="copy_azure"):
             copy_to_clipboard(summary_azure)
 
         st.markdown(summary_azure)
-
-
